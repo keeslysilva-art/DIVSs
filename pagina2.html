@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fórmula 1 - Carros e Pilotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            height: 2000px; /* Altura grande para forçar a barra de rolagem */
+            margin: 0;
+            padding-top: 50px;
+        }
+
+        /* 1ª DIV: Posicionamento Relative */
+        .caixa-relative {
+            position: relative;
+            top: 20px;
+            left: 50px;
+            width: 350px;
+            background-color: #DEB887; /* Bege */
+            color: black;
+            padding: 20px;
+        }
+
+        /* 2ª DIV: Posicionamento Sticky */
+        .caixa-sticky {
+            position: sticky;
+            top: 0px; /* Vai grudar no topo quando chegar lá */
+            margin-left: 100px;
+            margin-top: 150px; /* Distância inicial para testar o efeito */
+            width: 350px;
+            background-color: #808080; /* Cinza */
+            color: white;
+            padding: 20px;
+        }
+
+        a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Primeira DIV -->
+    <div class="caixa-relative">
+        <h2>As Máquinas Voadoras</h2>
+        <p>Os carros da F1 chegam a mais de 350 km/h. Eles geram tanta pressão aerodinâmica que, teoricamente, poderiam andar de cabeça para baixo no teto de um túnel!</p>
+        
+        <a href="index.html">⬅ Voltar para a Página 1</a>
+    </div>
+
+    <!-- Segunda DIV -->
+    <div class="caixa-sticky">
+        <h2>O Safety Car (Carro de Segurança)</h2>
+        <p>O Safety Car entra na pista para segurar os outros carros quando tem perigo.</p>
+        
+</html>
